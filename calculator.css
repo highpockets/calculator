@@ -1,0 +1,120 @@
+#outer{
+    text-align: center;
+}
+
+#face{
+    margin-top: 100px;
+    display: inline-block;
+    width: 400px;
+    height: 422px;
+    border: 2px solid rgb(192, 192, 192);
+    border-radius: 10px;
+    box-shadow: 5px 3px 5px black;
+    background-image: radial-gradient(rgb(229, 229, 229),
+    rgb(124, 124, 124));
+}
+
+#display{
+    display: inline-block;
+    height: 90px;
+    width: 382px;
+    margin: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border: 2px solid rgb(178, 178, 178);
+    border-radius: 4px;
+    background-color: rgb(50, 50, 50); 
+}
+
+#inner-display{
+    display: inline-block;
+    height: 84px;
+    width: 376px;
+    margin-bottom: 1px;
+    margin-top: 2px;
+    background-image: linear-gradient(rgb(154, 154, 154), rgb(100, 100, 100)); 
+}
+
+#display-digits{
+    height: 84px;
+    width: 384px;
+}
+
+.display-digits{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: right;
+    font-size: 58px;
+    margin-top: 10px;
+    margin-right: 8px;
+    color: rgba(33, 33, 33, 0.731);
+}
+
+#buttons{
+    display: inline-block;
+    height: 390px;
+    width: 390px;
+}
+
+#nums-and-decimal{
+    width: 234px;
+    float: left;
+}
+
+#operations{
+    display: block;
+    width: 156px;
+    float: left;
+}
+
+#buttons button{
+    width: 70px;
+    margin: 4px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.546);
+    float: left;
+}
+
+button{
+    font-size: 30px;
+    border: 1px solid rgb(215, 215, 215);
+    background-image: radial-gradient(white, rgb(217, 217, 217));
+}
+
+#buttons .button{
+    height: 70px;
+}
+
+.long-button{
+    height: 148px;
+}
+
+#plus-div{
+    float: left;
+    height: 156px;
+}
+
+#plus{
+    height: 148px;
+}
+
+.row{
+    height: 78px;
+}
+
+.high-row{
+    height: 156px;
+}
+
+#clear{
+    border: 1px solid rgb(255, 132, 113);
+    background-image: radial-gradient(rgb(254, 104, 81), rgb(194, 77, 59));
+}
+
+.op{
+    border: 1px solid rgb(255, 211, 167);
+    background-image: radial-gradient(rgb(255, 197, 139), rgb(194, 148, 103));
+}
+
+body{
+    background-image: radial-gradient(rgb(255, 255, 255), rgb(119, 119, 119));
+}
